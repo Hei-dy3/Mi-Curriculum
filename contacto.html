@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+        <header class="encabezado"> 
+            <img src="img/Foto.png" alt="mi foto" class="perfil">
+            <div class="DatosPersonales">
+                <h1>Heidy Rodas Aviles</h1>     
+                <p>Perfil Academico y Profesional</p>
+            </div>
+        </header>
+        <nav>   
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="habilidades.html">Habilidades</a></li>
+                <li><a href="estudios.html">Estudios</a></li>
+                <li><a href="Experiencia.html">Experiencia</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="referencias.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li> 
+            </ul>
+        </nav>
+
+        <h2>Formulario de contacto</h2>
+
+        <form action="" method="post">
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+            <label for="email:">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="fecha">Fecha de Contacto:</label>
+            <input type="date" id="fecha" name="fecha">
+            <label for="hora">Horario de Contacto:</label>
+            <select name="horario" id="horario">
+                <option value="seleccion">Seleccione una opción</option>
+                <option value="mañana">Mañana</option>
+                <option value="tarde">Tarde</option>
+                <option value="noche">Noche</option>
+            </select>
+            <label for="mensaje:">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+</body>
+</html>
